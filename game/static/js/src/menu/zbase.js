@@ -32,16 +32,13 @@ class AcGameMenu{
     add_listening_events(){
         let outer = this;
         this.$multi.click(function(){
-            console.log("dianlewohaha");
         });
         this.$single.click(function(){
             outer.hide();
-            console.log("dianlewo");
             outer.root.playground.show();
         });
 
         this.$settings.click(function(){
-            console.log("hahadianlewo");
         });
 
     }
